@@ -1,0 +1,45 @@
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\bin\Debug\TestEngine.exe.config
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\bin\Debug\TestEngine.exe
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\bin\Debug\TestEngine.pdb
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\obj\Debug\TestEngine.csprojAssemblyReference.cache
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\obj\Debug\TestEngine.exe
+C:\Users\79\Desktop\ConsoleGraphics\TestEngine\obj\Debug\TestEngine.pdb
+C:\Users\79\Desktop\TestEngine\bin\Debug\TestEngine.exe.config
+C:\Users\79\Desktop\TestEngine\bin\Debug\TestEngine.exe
+C:\Users\79\Desktop\TestEngine\bin\Debug\TestEngine.pdb
+C:\Users\79\Desktop\TestEngine\bin\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\TestEngine\bin\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\TestEngine\bin\Debug\GraphicsEngine.dll.config
+C:\Users\79\Desktop\TestEngine\obj\Debug\TestEngine.csprojAssemblyReference.cache
+C:\Users\79\Desktop\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\TestEngine\obj\Debug\TestEngine.csproj.CopyComplete
+C:\Users\79\Desktop\TestEngine\obj\Debug\TestEngine.exe
+C:\Users\79\Desktop\TestEngine\obj\Debug\TestEngine.pdb
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.exe.config
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.exe
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.pdb
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.dll.config
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csprojAssemblyReference.cache
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csproj.CopyComplete
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.exe
+C:\Users\79\Desktop\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.pdb
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.exe.config
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.exe
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\TestEngine.pdb
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\GraphicsEngine.dll.config
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.csproj.CopyComplete
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.exe
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\obj\Debug\TestEngine.pdb
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\EngineBasics.dll
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\EngineBasics.pdb
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\diamond_mesh.txt
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\mesh.txt
+C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\TestEngine\bin\Debug\colored_diamond_mesh.txt
