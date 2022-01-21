@@ -1,0 +1,25 @@
+C:\Users\79\source\repos\ImageEditor\obj\Debug\ImageEditor.csprojAssemblyReference.cache
+C:\Users\79\source\repos\ImageEditor\obj\Debug\ImageEditor.csproj.CoreCompileInputs.cache
+C:\Users\79\source\repos\ImageEditor\bin\Debug\ImageEditor.exe.config
+C:\Users\79\source\repos\ImageEditor\bin\Debug\ImageEditor.exe
+C:\Users\79\source\repos\ImageEditor\bin\Debug\ImageEditor.pdb
+C:\Users\79\source\repos\ImageEditor\obj\Debug\ImageEditor.exe
+C:\Users\79\source\repos\ImageEditor\obj\Debug\ImageEditor.pdb
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ImageEditor.exe.config
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ImageEditor.exe
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ImageEditor.pdb
+C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Debug\ImageEditor.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Debug\ImageEditor.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Debug\ImageEditor.exe
+C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Debug\ImageEditor.pdb
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ConsoleGraphic.pdb
+C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Debug\ImageEditor.csproj.CopyComplete
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ConsoleGraphic.exe
+C:\Users\79\Desktop\MisProyectos\ImageEditor\bin\Debug\ConsoleGraphic.exe.config
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\bin\Debug\ImageEditor.exe.config
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\bin\Debug\ImageEditor.exe
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\bin\Debug\ImageEditor.pdb
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.exe
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.pdb
+C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.csprojAssemblyReference.cache

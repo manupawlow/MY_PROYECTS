@@ -1,0 +1,21 @@
+C:\Users\79\source\repos\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\source\repos\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csprojAssemblyReference.cache
+C:\Users\79\source\repos\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\79\source\repos\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\source\repos\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.dll.config
+C:\Users\79\source\repos\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\source\repos\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.dll.config
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\bin\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\obj\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.dll.config
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.pdb
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.pdb

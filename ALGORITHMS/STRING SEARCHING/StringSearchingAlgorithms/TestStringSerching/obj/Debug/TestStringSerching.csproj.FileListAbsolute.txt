@@ -1,0 +1,36 @@
+C:\Users\79\source\repos\TestStringSerching\obj\Debug\TestStringSerching.csproj.CoreCompileInputs.cache
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\TestStringSerching.exe.config
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\TestStringSerching.exe
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\TestStringSerching.pdb
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\StringSerchingAlgorithms.dll.config
+C:\Users\79\source\repos\TestStringSerching\obj\Debug\TestStringSerching.csprojAssemblyReference.cache
+C:\Users\79\source\repos\TestStringSerching\obj\Debug\TestStringSerching.csproj.CopyComplete
+C:\Users\79\source\repos\TestStringSerching\obj\Debug\TestStringSerching.exe
+C:\Users\79\source\repos\TestStringSerching\obj\Debug\TestStringSerching.pdb
+C:\Users\79\source\repos\TestStringSerching\bin\Debug\Files\BIBLIA COMPLETA.txt
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\Files\BIBLIA COMPLETA.txt
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\TestStringSerching.exe.config
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\TestStringSerching.exe
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\TestStringSerching.pdb
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\StringSerchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\StringSerchingAlgorithms.pdb
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\bin\Debug\StringSerchingAlgorithms.dll.config
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csproj.CopyComplete
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.exe
+C:\Users\79\Desktop\MY PROYECTS\StringSerchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.pdb
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\Files\BIBLIA COMPLETA.txt
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\TestStringSearching.exe.config
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\TestStringSearching.exe
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\TestStringSearching.pdb
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\StringSearchingAlgorithms.pdb
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\bin\Debug\StringSearchingAlgorithms.dll.config
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\obj\Debug\TestStringSerching.csproj.CopyComplete
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\obj\Debug\TestStringSearching.exe
+C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\TestStringSerching\obj\Debug\TestStringSearching.pdb
