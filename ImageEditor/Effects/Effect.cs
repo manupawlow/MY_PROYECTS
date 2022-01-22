@@ -7,18 +7,6 @@ using System.Text;
 
 namespace ImageEditor
 {
-    public abstract class DynamicEffect : Effect
-    {
-        public int ElapsedTime { get; set; }
-
-        public DynamicEffect(object[] config) : base(config)
-        {
-            IsDynamic = true;
-
-            ElapsedTime = 0;
-        }
-    }
-
     public abstract class Effect
     {
         public bool IsDynamic = false;

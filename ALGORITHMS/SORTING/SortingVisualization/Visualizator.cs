@@ -49,22 +49,11 @@ namespace SortingVisualization
 
         private static void MainLogic()
         {
-            Random rnd = new Random();
-
-            var original = SortingAlgorithm.SortingAlgorithm.GetInOrderArr(50, descending: !true)
-                //.OrderBy(x => rnd.Next()).ToArray()
-                ;
-
-            arrSize = original.Count();
-            arrMax = original.Max();
-            arr = new int[arrSize];
-
-            Array.Copy(original, arr, arr.Count());
-
-            System.Threading.Thread.Sleep(500);
+            System.Threading.Thread.Sleep(1000);
 
             var sortingAlgorithms = new List<Type>() 
             {
+                typeof(BogoSort),
                 typeof(MergeSort),
                 typeof(InsertionSort),
                 typeof(HeapSort),
@@ -73,11 +62,19 @@ namespace SortingVisualization
                 typeof(BubbleSort),
             };
 
+            var level = 1;
+
             while (true)
             {
-                sortingAlgorithms.ForEach(s => {
+                var original = SortingAlgorithm.SortingAlgorithm.GetRandomArr(level++ * 2);
 
-                    System.Threading.Thread.Sleep(1500);
+                arrSize = original.Count();
+                arrMax = original.Max();
+                arr = new int[arrSize];
+
+                Array.Copy(original, arr, arr.Count());
+
+                sortingAlgorithms.ForEach(s => {
 
                     SortingTitle = s.Name;
 
@@ -88,15 +85,10 @@ namespace SortingVisualization
                     var instance = (SortingAlgorithm.SortingAlgorithm)Activator.CreateInstance(s, SortingSpeed);
 
                     instance.Sort(arr, coloredIndexes);
+
+                    System.Threading.Thread.Sleep(1500);
                 });
             }
-
-            //Array.Copy(original, arr, arr.Count());
-
-            //sortingAlgoritm = new BubbleSort(SortingSpeed);
-            //sortingAlgoritm.Sort(arr, coloredIndexes);
-
-            //System.Threading.Thread.Sleep(1000);
         }
 
         protected override void OnPaint(PaintEventArgs e)

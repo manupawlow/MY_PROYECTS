@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -10,12 +11,13 @@ namespace ImageEditor
 {
     public class MenuManager
     {
+        IConfigurationRoot configuration;
 
         private struct CONSTANTS
         {
-            public const string DIRECTORY_PATH = @"C:\Users\79\Desktop\MY PROYECTS\ImageEditor\";
-            public const string IMAGES_PATH = DIRECTORY_PATH + @"Images\";
-            public const string EDITED_IMAGES_PATH = DIRECTORY_PATH + @"EditedImages\";
+            public static readonly string DIRECTORY_PATH = Directory.GetCurrentDirectory();
+            public static readonly string IMAGES_PATH = Path.Combine(DIRECTORY_PATH, "Images");
+            public static readonly string EDITED_IMAGES_PATH = Path.Combine(DIRECTORY_PATH, "EditedImages");
             public static readonly string[] EXTENSIONS = { ".png", ".jpg", ".jpeg" };
         }
 
@@ -35,8 +37,10 @@ namespace ImageEditor
         public List<string> EFFECTS_NAMES { get; set; }
         public Stack<Bitmap> PREV_IMAGES { get; set; }
 
-        public MenuManager()
+        public MenuManager(Microsoft.Extensions.Configuration.IConfigurationRoot config)
         {
+            configuration = config;
+
             CURR_IMAGE = string.Empty;
             LAST_MESSAGE = string.Empty;
             EFFECTS_NAMES = new List<string>();
@@ -47,9 +51,9 @@ namespace ImageEditor
         public bool IsFinishEffects(string effect) => effect.ToUpper() == "DONE";
         public bool IsResetEffect(string effect) => effect.ToUpper() == "RESET";
 
-        public void SaveImage()
+        public void SaveImage(Image img)
         {
-            var filename = Path.Combine(CONSTANTS.EDITED_IMAGES_PATH, CURR_IMAGE);
+            var filename = Path.Combine(configuration["EDITED_IMAGES_PATH"], CURR_IMAGE);
 
             foreach (var effect in EFFECTS_NAMES.Select(e => e.Split(':')[0]))
                 filename += "[" + effect + "]";
@@ -60,14 +64,13 @@ namespace ImageEditor
 
             filename += $"-{counter}.png";
 
-            PREV_IMAGES.Pop().Save(filename, System.Drawing.Imaging.ImageFormat.Png);
+            img.Save(filename, System.Drawing.Imaging.ImageFormat.Png);
             
             LAST_MESSAGE = MENU_TITLES.LAST_MESSAGE_TITLE("INFO", $"Image editing succesfully! Saved at {filename}");
 
             CURR_IMAGE = string.Empty;
-            LAST_MESSAGE = string.Empty;
-            EFFECTS_NAMES = new List<string>();
-            PREV_IMAGES = new Stack<Bitmap>();
+            EFFECTS_NAMES.Clear();
+            PREV_IMAGES.Clear();
         }
 
         public Bitmap ResetEffect()

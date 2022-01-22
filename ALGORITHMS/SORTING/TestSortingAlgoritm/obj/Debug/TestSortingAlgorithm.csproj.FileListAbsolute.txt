@@ -21,3 +21,13 @@ C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.csproj.CopyComplete
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.exe
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\bin\Debug\TestSortingAlgorithm.exe.config
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\bin\Debug\TestSortingAlgorithm.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\bin\Debug\TestSortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\bin\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\bin\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\TestSortingAlgoritm\obj\Debug\TestSortingAlgorithm.pdb

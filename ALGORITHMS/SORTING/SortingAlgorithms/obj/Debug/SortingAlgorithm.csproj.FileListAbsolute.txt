@@ -10,3 +10,9 @@ C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\S
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.csproj.CoreCompileInputs.cache
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.dll
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\bin\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\bin\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingAlgorithms\obj\Debug\SortingAlgorithm.pdb

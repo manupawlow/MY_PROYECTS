@@ -17,9 +17,9 @@ namespace TestSortingAlgoritm
         static void Main(string[] args)
         {
             //arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
-            arr = new int[] { 9, 4, 1, 12, 15, 2, 6, 11, 3, 10, 8, 7, 13, 14, 5 };
+            //arr = new int[] { 9, 4, 1, 12, 15, 2, 6, 11, 3, 10, 8, 7, 13, 14, 5 };
             //arr = new int[] { 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-            //arr = new int[] { 5, 4, 3, 2, 1 };
+            arr = new int[] { 5, 4, 3, 2, 1 };
             //arr = SA.GetRandomArr(100);
             //arr = SA.GetInOrderArr(10000, descending: !true);
 
@@ -32,6 +32,7 @@ namespace TestSortingAlgoritm
 
                 var sortingAlgorithms = new List<Type>()
                 {
+                    typeof(BogoSort),
                     typeof(HeapSort),
                     typeof(SelectionSort),
                     typeof(QuickSort),

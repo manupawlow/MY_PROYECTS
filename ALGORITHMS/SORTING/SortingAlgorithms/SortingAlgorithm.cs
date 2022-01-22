@@ -25,10 +25,12 @@ namespace SortingAlgorithm
             arr[index2] = aux;   
         }
 
-        public static int[] GetRandomArr(int elements)
+        public static int[] GetRandomArr(int elements) => RandomizeArr(GetInOrderArr(elements));
+
+        public static int[] RandomizeArr(int[] arr)
         {
             var rnd = new Random();
-            return GetInOrderArr(elements).OrderBy(x => rnd.Next()).ToArray();
+            return arr.OrderBy(x => rnd.Next()).ToArray();
         }
 
         public static int[] GetInOrderArr(int elements, bool descending = false)
