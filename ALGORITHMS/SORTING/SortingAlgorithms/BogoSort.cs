@@ -8,11 +8,15 @@ namespace SortingAlgorithm
 {
     public class BogoSort : SortingAlgorithm
     {
+        private const int Attempts = 20;
+        
         public BogoSort(int speed) : base(speed) { }
 
         public override void Sort(int[] arr, int[] indexes)
         {
-            while (!IsSorted(arr))
+            var attempt = 0;
+
+            while (!IsSorted(arr) && attempt++ <= Attempts)
             {
                 Array.Copy(RandomizeArr(arr), arr, arr.Length);
                 System.Threading.Thread.Sleep(SortingSpeed);

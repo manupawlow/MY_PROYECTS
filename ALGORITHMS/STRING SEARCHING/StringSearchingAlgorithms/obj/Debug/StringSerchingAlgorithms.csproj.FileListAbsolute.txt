@@ -19,3 +19,10 @@ C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\S
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csproj.CoreCompileInputs.cache
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.dll
 C:\Users\79\Desktop\MY PROYECTS\ALGORITHMS\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.dll.config
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\bin\Debug\StringSearchingAlgorithms.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\obj\Debug\StringSerchingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\STRING SEARCHING\StringSearchingAlgorithms\obj\Debug\StringSearchingAlgorithms.pdb

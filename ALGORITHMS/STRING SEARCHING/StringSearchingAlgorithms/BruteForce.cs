@@ -8,10 +8,10 @@ namespace StringSerchingAlgorithms
 {
     public class BruteForce : IStringSearchingAlgorithm
     {
-        public int Contains(string text, string word)
+        public int Contains(string text, string target)
         {
             var n = text.Length;
-            var m = word.Length;
+            var m = target.Length;
 
             for(int i = 0; i < n - m; i++)
             {
@@ -21,7 +21,7 @@ namespace StringSerchingAlgorithms
                 var diferent = false;
                 for(int j=0; j < m; j++)
                 {
-                    if (text[i + j] != word[j])
+                    if (text[i + j] != target[j])
                     {
                         diferent = true;
                         break;

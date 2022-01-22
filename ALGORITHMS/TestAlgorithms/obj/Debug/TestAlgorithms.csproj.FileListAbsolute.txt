@@ -1,0 +1,14 @@
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\TestAlgorithms.exe.config
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\TestAlgorithms.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\TestAlgorithms.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\obj\Debug\TestAlgorithms.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\obj\Debug\TestAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\obj\Debug\TestAlgorithms.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\obj\Debug\TestAlgorithms.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\obj\Debug\TestAlgorithms.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\Files\BIBLIA COMPLETA.txt
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\StringSearchingAlgorithms.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\StringSearchingAlgorithms.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\TestAlgorithms\bin\Debug\StringSearchingAlgorithms.dll.config

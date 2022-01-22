@@ -1,2 +1,0 @@
-C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Release\ImageEditor.csprojAssemblyReference.cache
-C:\Users\79\Desktop\MisProyectos\ImageEditor\obj\Release\ImageEditor.csproj.CoreCompileInputs.cache
