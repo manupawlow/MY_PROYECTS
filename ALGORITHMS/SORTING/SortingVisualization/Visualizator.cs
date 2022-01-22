@@ -30,7 +30,7 @@ namespace SortingVisualization
             this.StartPosition = FormStartPosition.CenterScreen;
 
             timer.Enabled = true;
-            timer.Interval = SortingSpeed;
+            timer.Interval = 1000 / SortingSpeed;
             timer.Tick += new EventHandler((s, e) => { this.Invalidate(); });
         }
 
@@ -47,10 +47,10 @@ namespace SortingVisualization
             Task.WaitAll(tasks.ToArray());
         }
 
+        public static bool done = false;
+
         private static void MainLogic()
         {
-            System.Threading.Thread.Sleep(1000);
-
             var sortingAlgorithms = new List<Type>() 
             {
                 typeof(BogoSort),
@@ -62,11 +62,13 @@ namespace SortingVisualization
                 typeof(BubbleSort),
             };
 
-            var level = 1;
+            var elements = 16;
 
             while (true)
             {
-                var original = SortingAlgorithm.SortingAlgorithm.GetRandomArr(level++ * 2);
+                elements *= 2;
+
+                var original = SortingAlgorithm.SortingAlgorithm.GetRandomArr(elements);
 
                 arrSize = original.Count();
                 arrMax = original.Max();
@@ -74,9 +76,11 @@ namespace SortingVisualization
 
                 Array.Copy(original, arr, arr.Count());
 
+                System.Threading.Thread.Sleep(1000);
+
                 sortingAlgorithms.ForEach(s => {
 
-                    SortingTitle = s.Name;
+                    SortingTitle = s.Name + $" ({elements} elements)";
 
                     Array.Copy(original, arr, arr.Count());
 
@@ -86,7 +90,11 @@ namespace SortingVisualization
 
                     instance.Sort(arr, coloredIndexes);
 
+                    done = true;
+
                     System.Threading.Thread.Sleep(1500);
+
+                    done = false;
                 });
             }
         }
@@ -108,7 +116,7 @@ namespace SortingVisualization
 
             for (int i = 0; i < arrSize; i++)
             {
-                var brush = coloredIndexes[0] == i ? Brushes.LightGreen 
+                var brush = done || coloredIndexes[0] == i ? Brushes.LightGreen 
                     : coloredIndexes[1] == i ? Brushes.LightBlue 
                     : Brushes.White;
 
