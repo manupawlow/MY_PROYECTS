@@ -23,28 +23,10 @@ C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.csproj.CoreCom
 C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.exe
 C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.pdb
 C:\Users\79\Desktop\MY PROYECTS\ImageEditor\obj\Debug\ImageEditor.csprojAssemblyReference.cache
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\ImageEditor.exe.config
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\ImageEditor.exe
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\ImageEditor.pdb
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.csprojAssemblyReference.cache
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.csproj.CoreCompileInputs.cache
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.exe
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.pdb
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\banade.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\bart.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\black.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\breakingbad.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\buzz.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\gian.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\luis.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\mario.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\pikachu.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\primera.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\screen.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\spiderman.png
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\yonene.jpg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Images\gian2.jpeg
-C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\config.json
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\Microsoft.Extensions.Configuration.dll
@@ -82,3 +64,6 @@ C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\System.Text.Json.xml
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\System.ValueTuple.xml
 C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\ImageEditor.dll.config
+C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\bin\Debug\ImageEditor.dll
+C:\Users\79\Desktop\MY_PROYECTS\ImageEditor\obj\Debug\ImageEditor.dll

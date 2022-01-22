@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ImageEditor
 {
-    class Utils
+    public class Utils
     {
         public static Image FitImageInBoundaries(Image img, int maxWidth, int maxHeight)
         {
@@ -73,24 +73,6 @@ namespace ImageEditor
             bmPhoto.SetResolution(imgPhoto.HorizontalResolution, imgPhoto.VerticalResolution);
 
             return bmPhoto;
-        }
-
-        public static string ShowEffects()
-        {
-            var effects = Effect.GetAllEffects();
-
-            var listedEffects = new StringBuilder();
-
-            listedEffects.Append("EFFECTS:\n");
-
-            for (int i = 0; i < effects.Count; i++)
-            {
-                listedEffects.Append($"\t{(i + 1).ToString().PadLeft(2, ' ')}) {effects[i].Name.Replace("Effect", "")}\n");
-            }
-
-            listedEffects.Append("TYPE DONE TO FINISH EDITING");
-
-            return listedEffects.ToString();
         }
     }
 }
