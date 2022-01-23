@@ -54,7 +54,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SortingAlgorithms\SortingAlgorithm.csproj">
+    <ProjectReference Include="..\SORTING\SortingAlgorithms\SortingAlgorithm.csproj">
       <Project>{87e23411-3542-40d9-819b-4aa7b8b68940}</Project>
       <Name>SortingAlgorithm</Name>
     </ProjectReference>

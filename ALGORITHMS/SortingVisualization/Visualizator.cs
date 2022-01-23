@@ -29,12 +29,14 @@ namespace SortingVisualization
             this.Size = new Size(WIDTH, HEIGHT);
             this.StartPosition = FormStartPosition.CenterScreen;
 
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.DoubleBuffer | ControlStyles.OptimizedDoubleBuffer, true);
+
             timer.Enabled = true;
             timer.Interval = 1000 / SortingSpeed;
             timer.Tick += new EventHandler((s, e) => { this.Invalidate(); });
         }
 
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             var graphicsTask = new Task(() => Application.Run(new Visualizator()));
             var logicTask = new Task(() => MainLogic());
@@ -86,7 +88,7 @@ namespace SortingVisualization
 
                     coloredIndexes = new int[] { -1, -1 };
 
-                    var instance = (SortingAlgorithm.SortingAlgorithm)Activator.CreateInstance(s, SortingSpeed);
+                    var instance = (SortingAlgorithm.SortingAlgorithm)Activator.CreateInstance(s, 1000 / SortingSpeed);
 
                     instance.Sort(arr, coloredIndexes);
 

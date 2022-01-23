@@ -28,3 +28,13 @@ C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingVisualization\obj\Debu
 C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingVisualization\obj\Debug\SortingVisualization.csproj.CopyComplete
 C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingVisualization\obj\Debug\SortingVisualization.exe
 C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\SortingVisualization\obj\Debug\SortingVisualization.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\obj\Debug\SortingVisualization.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\obj\Debug\SortingVisualization.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\obj\Debug\SortingVisualization.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\obj\Debug\SortingVisualization.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\bin\Debug\SortingVisualization.exe.config
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\bin\Debug\SortingVisualization.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\bin\Debug\SortingVisualization.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\bin\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\bin\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SortingVisualization\obj\Debug\SortingVisualization.csproj.CopyComplete

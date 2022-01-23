@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingVisualization", "SortingVisualization.csproj", "{FE8E3B9F-160C-457C-816B-B3A4894D0866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm", "..\SortingAlgorithms\SortingAlgorithm.csproj", "{87E23411-3542-40D9-819B-4AA7B8B68940}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm", "..\SORTING\SortingAlgorithms\SortingAlgorithm.csproj", "{87E23411-3542-40D9-819B-4AA7B8B68940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
