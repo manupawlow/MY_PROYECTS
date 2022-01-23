@@ -19,3 +19,10 @@ C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\Graphics
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.csproj.CoreCompileInputs.cache
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.dll
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\bin\Debug\GraphicsEngine.dll.config
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\bin\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\bin\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\GraphicsEngine\obj\Debug\GraphicsEngine.pdb

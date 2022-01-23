@@ -10,7 +10,7 @@ namespace GraphicsEngine
 {
     public abstract class BaseGraphicsEngine
     {
-        private const int FRAME_RATE = 1000 / 10;
+        private const int FRAME_RATE = 1000 / 60;
 
         public bool GAME_OVER { get; set; } = false;
 

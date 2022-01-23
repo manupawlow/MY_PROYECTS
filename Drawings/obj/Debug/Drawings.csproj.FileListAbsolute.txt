@@ -28,3 +28,13 @@ C:\Users\79\Desktop\MY PROYECTS\Drawings\obj\Debug\Drawings.csproj.CoreCompileIn
 C:\Users\79\Desktop\MY PROYECTS\Drawings\obj\Debug\Drawings.csproj.CopyComplete
 C:\Users\79\Desktop\MY PROYECTS\Drawings\obj\Debug\Drawings.exe
 C:\Users\79\Desktop\MY PROYECTS\Drawings\obj\Debug\Drawings.pdb
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\bin\Debug\Drawings.exe.config
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\bin\Debug\Drawings.exe
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\bin\Debug\Drawings.pdb
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\bin\Debug\System.ValueTuple.dll
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\bin\Debug\System.ValueTuple.xml
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\obj\Debug\Drawings.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\obj\Debug\Drawings.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\obj\Debug\Drawings.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\obj\Debug\Drawings.exe
+C:\Users\79\Desktop\MY_PROYECTS\Drawings\obj\Debug\Drawings.pdb

@@ -8,3 +8,13 @@ C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasi
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.csproj.CopyComplete
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.dll
 C:\Users\79\Desktop\MY PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.pdb
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\bin\Debug\EngineBasics.dll
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\bin\Debug\EngineBasics.pdb
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\bin\Debug\GraphicsEngine.dll
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\bin\Debug\GraphicsEngine.pdb
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\bin\Debug\GraphicsEngine.dll.config
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.dll
+C:\Users\79\Desktop\MY_PROYECTS\GRAPHIC ENGINE\EngineBasics\obj\Debug\EngineBasics.pdb

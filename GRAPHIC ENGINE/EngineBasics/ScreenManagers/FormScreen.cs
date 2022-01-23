@@ -73,6 +73,8 @@ namespace EngineBasics.ScreenManagers
             Size = new Size(w, h);
             StartPosition = FormStartPosition.CenterScreen;
 
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.DoubleBuffer | ControlStyles.OptimizedDoubleBuffer, true);
+
             Triangles = new List<_Triangle>();
             Lines = new List<_Line>();
         }
