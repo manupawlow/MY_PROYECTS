@@ -1,0 +1,10 @@
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\bin\Debug\ImageSorting.exe.config
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\bin\Debug\ImageSorting.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\bin\Debug\ImageSorting.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\bin\Debug\SortingAlgorithm.dll
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\bin\Debug\SortingAlgorithm.pdb
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\obj\Debug\ImageSorting.csprojAssemblyReference.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\obj\Debug\ImageSorting.csproj.CoreCompileInputs.cache
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\obj\Debug\ImageSorting.csproj.CopyComplete
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\obj\Debug\ImageSorting.exe
+C:\Users\79\Desktop\MY_PROYECTS\ALGORITHMS\SORTING\ImageSorting\obj\Debug\ImageSorting.pdb

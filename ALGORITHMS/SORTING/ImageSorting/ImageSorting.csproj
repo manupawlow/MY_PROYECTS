@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE8E3B9F-160C-457C-816B-B3A4894D0866}</ProjectGuid>
+    <ProjectGuid>{04CA6078-2217-45E3-9130-AF646AF7E95B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SortingVisualization</RootNamespace>
-    <AssemblyName>SortingVisualization</AssemblyName>
+    <RootNamespace>ImageSorting</RootNamespace>
+    <AssemblyName>ImageSorting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Visualizator.cs">
+    <Compile Include="Program.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,7 +54,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SORTING\SortingAlgorithms\SortingAlgorithm.csproj">
+    <ProjectReference Include="..\SortingAlgorithms\SortingAlgorithm.csproj">
       <Project>{87e23411-3542-40d9-819b-4aa7b8b68940}</Project>
       <Name>SortingAlgorithm</Name>
     </ProjectReference>
