@@ -1,6 +1,7 @@
 ﻿using SortingAlgorithm;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,11 +17,15 @@ namespace ImageSorting
         const int WIDTH = 700;
         const int HEIGHT = 500;
 
-        public static Color[] pixels { get; set; }
+        public static Bitmap originalImage { get; set; }
         public static int[] indexes { get; set; }
-        public static int arrSize { get; set; }
+        public static int[] originalIndexes { get; set; }
+        public static int[] coloredIndexes { get; set; }
         public static int imgWidth { get; set; }
         public static int imgHeight { get; set; }
+        public static int pixelRadious { get; set; }
+
+        public Bitmap displayImage { get; set; }
 
         Timer timer = new Timer();
 
@@ -33,7 +38,7 @@ namespace ImageSorting
 
             timer.Enabled = true;
             timer.Interval = 1000 / SortingSpeed;
-            timer.Tick += new EventHandler((s, e) => { Console.WriteLine("Tick"); this.Invalidate(); });
+            timer.Tick += new EventHandler((s, e) => { displayImage = GenerateImage(); this.Invalidate(); });
         }
 
         static void Main(string[] args)
@@ -49,33 +54,31 @@ namespace ImageSorting
             Task.WaitAll(tasks.ToArray());
         }
 
-        public static bool done = false;
-        public static bool allDone = false;
-
         public static void MainLogic()
         {
-            var image = (Bitmap)Image.FromFile(@"C:\Users\79\Desktop\logo.jpg");
+            pixelRadious = 4;
 
-            imgWidth = image.Width;
-            imgHeight = image.Height;
-            arrSize = imgWidth * imgHeight;
+            originalImage = (Bitmap)Image.FromFile(@"C:\Users\79\Desktop\MY_PROYECTS\IMAGE PROCESSING\PhotoShop\Images\buzz.jpg");
 
-            pixels = new Color[arrSize];
-            indexes = new int[arrSize];
+            imgWidth = originalImage.Width;
+            imgHeight = originalImage.Height;
 
-            for (int i = 0; i < imgHeight; i++) 
+            var original = new List<int>();
+
+            for (int h = 0; h < imgHeight; h += pixelRadious)
             {
-                for(int j = 0; j < imgWidth; j++)
+                for (int w = 0; w < imgWidth; w += pixelRadious)
                 {
-                    var index = i * imgWidth + j;
-                    pixels[index] = image.GetPixel(j, i);
-                    indexes[index] = index;
+                    original.Add(h * imgWidth + w);
                 }
             }
 
+            originalIndexes = original.ToArray();
+            indexes = new int[originalIndexes.Length];
+
             var sortingAlgorithms = new List<Type>()
             {
-                typeof(BogoSort),
+                //typeof(BogoSort),
                 typeof(QuickSort),
                 typeof(HeapSort),
                 typeof(MergeSort),
@@ -86,16 +89,19 @@ namespace ImageSorting
 
             //indexes = SortingAlgorithm.SortingAlgorithm.RandomizeArr(indexes);
 
+            coloredIndexes = new int[2];
+
             while (true)
             {
-
                 sortingAlgorithms.ForEach(s =>
                 {
-                    indexes = SortingAlgorithm.SortingAlgorithm.RandomizeArr(indexes);
-                    
-                    var instance = (SortingAlgorithm.SortingAlgorithm)Activator.CreateInstance(s,  1000 / (SortingSpeed * 1));
+                    indexes = SortingAlgorithm.SortingAlgorithm.RandomizeArr(originalIndexes);
 
-                    instance.Sort(indexes, new int[] { -1, -1 });
+                    var instance = (SortingAlgorithm.SortingAlgorithm)Activator.CreateInstance(s, 1000 / (SortingSpeed * 1));
+
+                    instance.Sort(indexes, coloredIndexes);
+
+                    System.Threading.Thread.Sleep(1000);
                 });
             }
         }
@@ -104,30 +110,67 @@ namespace ImageSorting
         {
             var bitmap = new Bitmap(imgWidth, imgHeight);
 
-            for (int i = 0; i < imgHeight; i++)
+            if(pixelRadious == 1)
             {
-                for (int j = 0; j < imgWidth; j++)
+                if (indexes != null)
                 {
-                    var index = indexes[i * imgWidth + j];
+                    for (int i = 0; i < imgHeight; i++)
+                    {
+                        for (int j = 0; j < imgWidth; j++)
+                        {
+                            var index = indexes[i * imgWidth + j];
 
-                    var color = pixels[index];
-
-                    bitmap.SetPixel(j, i, color);
+                            var x = index % imgWidth;
+                            var y = index / imgWidth;
+                        
+                            bitmap.SetPixel(j, i, originalImage.GetPixel(x, y));
+                        }
+                    }
                 }
             }
+            else
+            {
+                int indexN, indexO;
+                for (int i = 0; i < indexes.Length; i++)
+                {
+                    indexO = originalIndexes[i];
+                    indexN = indexes[i];
 
+                    var xo = indexO % imgWidth;
+                    var yo = indexO / imgWidth;
+
+                    var xn = indexN % imgWidth;
+                    var yn = indexN / imgWidth;
+
+                    var isSelected = coloredIndexes[0] == i;
+
+                    for (int _h = 0; _h < pixelRadious && yo + _h < bitmap.Height && yn + _h < bitmap.Height; _h++)
+                    {
+                        for (int _w = 0; _w < pixelRadious && xo + _w < bitmap.Width && xn + _w < bitmap.Width; _w++)
+                        {
+                            var color = isSelected ? Color.Red : originalImage.GetPixel(xo + _w, yo + _h);
+
+                            bitmap.SetPixel(xn + _w, yn + _h, color);
+                        }
+                    }
+                }
+            }
+               
             return bitmap;
         }
+
+
 
         protected override void OnPaint(PaintEventArgs e)
         {
             Graphics g = e.Graphics;
 
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighSpeed;
 
             g.Clear(Color.Black);
 
-            g.DrawImage(GenerateImage(), 0, 0, WIDTH, HEIGHT);
+            if (displayImage != null)
+                g.DrawImage(displayImage, 0, 0, WIDTH, HEIGHT);
 
             base.OnPaint(e);
         }
