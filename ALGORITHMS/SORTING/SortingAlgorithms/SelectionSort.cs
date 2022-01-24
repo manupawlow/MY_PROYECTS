@@ -22,6 +22,9 @@ namespace SortingAlgorithm
 
                 for (j = i + 1; j < arr_size; j++)
                 {
+                    indexes[0] = j;
+                    System.Threading.Thread.Sleep(SortingSpeed);
+
                     if (arr[j] < arr[min_index])
                     {
                         min_index = j;

@@ -11,7 +11,7 @@ namespace SortingVisualization
 {
     public class Visualizator : Form
     {
-        static int SortingSpeed = 50;
+        static int SortingSpeed = 1;
         static string SortingTitle = "";
 
         const int WIDTH = 700;
@@ -33,7 +33,7 @@ namespace SortingVisualization
 
             timer.Enabled = true;
             timer.Interval = 1000 / SortingSpeed;
-            timer.Tick += new EventHandler((s, e) => { this.Invalidate(); });
+            timer.Tick += new EventHandler((s, e) => { Console.WriteLine("Tick");  this.Invalidate(); });
         }
 
         static void Main(string[] args)
@@ -50,25 +50,26 @@ namespace SortingVisualization
         }
 
         public static bool done = false;
+        public static bool allDone = false;
 
-        private static void MainLogic()
+        public static void MainLogic()
         {
             var sortingAlgorithms = new List<Type>() 
             {
-                typeof(BogoSort),
+                //typeof(BogoSort),
+                typeof(SelectionSort),
                 typeof(MergeSort),
                 typeof(InsertionSort),
                 typeof(HeapSort),
-                typeof(SelectionSort),
                 typeof(QuickSort),
                 typeof(BubbleSort),
             };
 
-            var elements = 16;
+            var elements = 256;
 
             while (true)
             {
-                elements *= 2;
+                SortingSpeed = elements / 2;
 
                 var original = SortingAlgorithm.SortingAlgorithm.GetRandomArr(elements);
 
@@ -78,11 +79,13 @@ namespace SortingVisualization
 
                 Array.Copy(original, arr, arr.Count());
 
+                allDone = true;
                 System.Threading.Thread.Sleep(1000);
+                allDone = false;
 
                 sortingAlgorithms.ForEach(s => {
 
-                    SortingTitle = s.Name + $" ({elements} elements)";
+                    SortingTitle = s.Name + $"({elements} elements)\n{SortingSpeed} sorts per second";
 
                     Array.Copy(original, arr, arr.Count());
 
@@ -98,6 +101,8 @@ namespace SortingVisualization
 
                     done = false;
                 });
+
+                elements *= 2;
             }
         }
 
@@ -116,10 +121,13 @@ namespace SortingVisualization
 
             g.DrawString(SortingTitle, new Font("Arial", 11), Brushes.White, 10, 10);
 
+            if (allDone)
+                timer.Interval = 1000 / SortingSpeed;
+
             for (int i = 0; i < arrSize; i++)
             {
-                var brush = done || coloredIndexes[0] == i ? Brushes.LightGreen 
-                    : coloredIndexes[1] == i ? Brushes.LightBlue 
+                var brush = done || coloredIndexes[0] == i ? Brushes.Red
+                    //: coloredIndexes[1] == i ? Brushes.LightBlue 
                     : Brushes.White;
 
                 g.FillRectangle(
