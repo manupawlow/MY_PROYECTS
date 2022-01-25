@@ -38,12 +38,12 @@ namespace TestEngine
             box = new Box(1, 1, 1, EngineColor.Red);
             sphere = new Sphere(3, 6, EngineColor.Pink);
             tri = new TriangleMesh(1, 1, EngineColor.White);
-            instance = MeshGenerator.MeshFromTxt2("diamond_mesh.txt");
+            instance = MeshGenerator.MeshFromTxt("mesh.txt");
 
-            Meshes.Add(sphere);
-            /*
-            Meshes.Add(box);
             Meshes.Add(instance);
+            /*
+            Meshes.Add(sphere);
+            Meshes.Add(box);
             Meshes.Add(tri);
             */
         }
@@ -130,16 +130,16 @@ namespace TestEngine
 
         private void InstanceUpdate(MeshInstance instance)
         {
-            var scale = 15;
+            var scale = 0.2;
             instance.WorldState.Scale = new Vector3(scale, scale, scale);
 
             var translationX = 0;
             var translationY = 0;
-            var translationZ = -60;
+            var translationZ = -90;
             instance.WorldState.Traslation = new Vector3(translationX, translationY, translationZ);
 
-            var rotationX = 0;
-            var rotationY = 1 * Math.PI / 64;
+            var rotationX = 1 * Math.PI / 64;
+            var rotationY = 0 * Math.PI / 64;
             var rotationZ = 0;
             instance.WorldState.Rotation += new Vector3(rotationX, rotationY, rotationZ);
         }

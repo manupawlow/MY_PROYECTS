@@ -12,7 +12,7 @@ namespace ImageSorting
 {
     class Program : Form
     {
-        static int SortingSpeed = 1000;
+        static int SortingSpeed = 1;
 
         const int WIDTH = 700;
         const int HEIGHT = 500;
@@ -23,7 +23,8 @@ namespace ImageSorting
         public static int[] coloredIndexes { get; set; }
         public static int imgWidth { get; set; }
         public static int imgHeight { get; set; }
-        public static int pixelRadious { get; set; }
+        public static int pixelRadiousX { get; set; }
+        public static int pixelRadiousY { get; set; }
 
         public Bitmap displayImage { get; set; }
 
@@ -54,10 +55,10 @@ namespace ImageSorting
             Task.WaitAll(tasks.ToArray());
         }
 
+        public static bool done = false;
+
         public static void MainLogic()
         {
-            pixelRadious = 4;
-
             originalImage = (Bitmap)Image.FromFile(@"C:\Users\79\Desktop\MY_PROYECTS\IMAGE PROCESSING\PhotoShop\Images\buzz.jpg");
 
             imgWidth = originalImage.Width;
@@ -65,9 +66,12 @@ namespace ImageSorting
 
             var original = new List<int>();
 
-            for (int h = 0; h < imgHeight; h += pixelRadious)
+            pixelRadiousX = imgWidth / 5;
+            pixelRadiousY = imgHeight / 5;
+
+            for (int h = 0; h < imgHeight; h += pixelRadiousY)
             {
-                for (int w = 0; w < imgWidth; w += pixelRadious)
+                for (int w = 0; w < imgWidth; w += pixelRadiousX)
                 {
                     original.Add(h * imgWidth + w);
                 }
@@ -101,7 +105,9 @@ namespace ImageSorting
 
                     instance.Sort(indexes, coloredIndexes);
 
+                    done = true;
                     System.Threading.Thread.Sleep(1000);
+                    done = false;
                 });
             }
         }
@@ -110,7 +116,7 @@ namespace ImageSorting
         {
             var bitmap = new Bitmap(imgWidth, imgHeight);
 
-            if(pixelRadious == 1)
+            if(pixelRadiousX == 1 && pixelRadiousY == 1)
             {
                 if (indexes != null)
                 {
@@ -144,11 +150,13 @@ namespace ImageSorting
 
                     var isSelected = coloredIndexes[0] == i;
 
-                    for (int _h = 0; _h < pixelRadious && yo + _h < bitmap.Height && yn + _h < bitmap.Height; _h++)
+                    for (int _h = 0; _h < pixelRadiousY && yo + _h < bitmap.Height && yn + _h < bitmap.Height; _h++)
                     {
-                        for (int _w = 0; _w < pixelRadious && xo + _w < bitmap.Width && xn + _w < bitmap.Width; _w++)
+                        for (int _w = 0; _w < pixelRadiousX && xo + _w < bitmap.Width && xn + _w < bitmap.Width; _w++)
                         {
-                            var color = isSelected ? Color.Red : originalImage.GetPixel(xo + _w, yo + _h);
+                            var originalColor = originalImage.GetPixel(xo + _w, yo + _h);
+
+                            var color = /*isSelected && !done ? BrightColor(originalColor) : */originalColor;
 
                             bitmap.SetPixel(xn + _w, yn + _h, color);
                         }
@@ -159,7 +167,16 @@ namespace ImageSorting
             return bitmap;
         }
 
+        private Color BrightColor(Color color)
+        {
+            var r = (int)Math.Min(color.R * 1.5, 255);
+            var g = (int)Math.Min(color.G * 1.5, 255);
+            var b = (int)Math.Min(color.B * 1.5, 255);
 
+            return Color.FromArgb(r, g, b);
+        }
+
+        Pen selectedPen = new Pen(Color.Red, 1);
 
         protected override void OnPaint(PaintEventArgs e)
         {
@@ -170,7 +187,14 @@ namespace ImageSorting
             g.Clear(Color.Black);
 
             if (displayImage != null)
+            {
                 g.DrawImage(displayImage, 0, 0, WIDTH, HEIGHT);
+
+                var x = coloredIndexes[0] % imgWidth;
+                var y = coloredIndexes[0] / imgWidth;
+
+                g.DrawRectangle(selectedPen, x, y, pixelRadiousX, pixelRadiousY);
+            }
 
             base.OnPaint(e);
         }

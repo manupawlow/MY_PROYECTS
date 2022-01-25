@@ -8,7 +8,7 @@ namespace SortingAlgorithm
 {
     public class BogoSort : SortingAlgorithm
     {
-        private const int Attempts = 20;
+        private const int Attempts = 1000;
         
         public BogoSort(int speed) : base(speed) { }
 

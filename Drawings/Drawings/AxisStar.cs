@@ -10,7 +10,7 @@ namespace Drawings.Drawings
 {
     public class AxisStar : Draw
     {
-        int FRAME_RATE = 500;
+        int FRAME_RATE = 5;
 
         const int INIT_WIDTH = 700;
         const int INIT_HEIGHT = 700;
@@ -21,10 +21,12 @@ namespace Drawings.Drawings
         {
             this.Size = new Size(INIT_WIDTH, INIT_HEIGHT);
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.DoubleBuffer | ControlStyles.OptimizedDoubleBuffer, true);
         }
 
-        int Axis = 5;
-        int PointsInAxis = 5;
+        int Axis = 4;
+        int PointsInAxis = 60;
 
         Queue<List<(PointF, PointF)>> LinesBuffer;
 
@@ -35,7 +37,7 @@ namespace Drawings.Drawings
             while (true)
             {
                 while (LinesBuffer.Count() > 2)
-                    System.Threading.Thread.Sleep(FRAME_RATE);
+                    System.Threading.Thread.Sleep(1000 / FRAME_RATE);
 
                 var angleBetweenAxis = 360 / Axis * (Math.PI / 180.0);
                 var Lines = new List<(PointF, PointF)>();
@@ -72,12 +74,14 @@ namespace Drawings.Drawings
 
                 Ready = true;
 
-                PointsInAxis++;
-                //Axis++;
-                
+                //PointsInAxis++;
+                Axis++;
+
                 this.Invalidate();
             }
         }
+
+        Pen pen = new Pen(Color.White, 1);
 
         protected override void OnPaint(PaintEventArgs e)
         {
@@ -99,7 +103,7 @@ namespace Drawings.Drawings
                     var p2 = ScalePoint(l.Item2, origin, pointWidth, pointHeight);
 
                     g.DrawLine(
-                        pen: new Pen(Color.White, 1),
+                        pen: pen,
                         pt1: p1,
                         pt2: p2);
                 });

@@ -24,7 +24,7 @@ namespace EngineBasics.Meshes
             return boxes;
         }
 
-        public static Mesh MeshFromTxt(string path)
+        public static MeshInstance MeshFromTxt(string path)
         {
             var triangles = new List<Triangle>();
 
