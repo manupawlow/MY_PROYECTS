@@ -33,7 +33,7 @@ namespace SortingVisualization
 
             timer.Enabled = true;
             timer.Interval = 1000 / SortingSpeed;
-            timer.Tick += new EventHandler((s, e) => { Console.WriteLine("Tick");  this.Invalidate(); });
+            timer.Tick += new EventHandler((s, e) => { this.Invalidate(); });
         }
 
         static void Main(string[] args)
@@ -56,20 +56,20 @@ namespace SortingVisualization
         {
             var sortingAlgorithms = new List<Type>() 
             {
-                //typeof(BogoSort),
-                typeof(SelectionSort),
-                typeof(MergeSort),
-                typeof(InsertionSort),
-                typeof(HeapSort),
+                typeof(BogoSort),
                 typeof(QuickSort),
+                typeof(HeapSort),
+                typeof(MergeSort),
+                typeof(SelectionSort),
+                typeof(InsertionSort),
                 typeof(BubbleSort),
             };
 
-            var elements = 256;
+            var elements = (int)Math.Pow(2, 2);
 
             while (true)
             {
-                SortingSpeed = elements / 2;
+                SortingSpeed = Math.Min(elements / 2, 1000);
 
                 var original = SortingAlgorithm.SortingAlgorithm.GetRandomArr(elements);
 
@@ -85,7 +85,7 @@ namespace SortingVisualization
 
                 sortingAlgorithms.ForEach(s => {
 
-                    SortingTitle = s.Name + $"({elements} elements)\n{SortingSpeed} sorts per second";
+                    SortingTitle = s.Name + $" ({elements} elements)\n{SortingSpeed} sorts per second";
 
                     Array.Copy(original, arr, arr.Count());
 
@@ -106,37 +106,62 @@ namespace SortingVisualization
             }
         }
 
+        Font font = new Font("Arial", 11);
+        Pen whitePen = new Pen(Brushes.White);
+        Pen redPen = new Pen(Brushes.Red);
+
         protected override void OnPaint(PaintEventArgs e)
         {
             Graphics g = e.Graphics;
 
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
 
-            var elementWidth = this.Width * .95 / arrSize;
-            var elementHeight = this.Height * .8 / arrMax;
+            var elementWidth = Width * .95f / arrSize;
+            var elementHeight = Height * .8f / arrMax;
 
             g.FillRectangle(Brushes.Black, 0, 0, this.Width, this.Height);
 
-            var widthOffset = elementWidth * 0.1;
+            var widthOffset = elementWidth * 0.1f;
 
-            g.DrawString(SortingTitle, new Font("Arial", 11), Brushes.White, 10, 10);
+            g.DrawString(SortingTitle, font, Brushes.White, 10, 10);
 
             if (allDone)
                 timer.Interval = 1000 / SortingSpeed;
 
+            var rectangles = new RectangleF[arrSize];
+
             for (int i = 0; i < arrSize; i++)
             {
-                var brush = done || coloredIndexes[0] == i ? Brushes.Red
-                    //: coloredIndexes[1] == i ? Brushes.LightBlue 
-                    : Brushes.White;
+                //var brush = done || coloredIndexes[0] == i ? Brushes.Red
+                //    : Brushes.White;
 
-                g.FillRectangle(
-                    brush,
-                    x: (int)(i * elementWidth + widthOffset), 
-                    y: (int)(this.Height * .9) - (int)(elementHeight * arr[i]), 
-                    width: (int)(elementWidth - widthOffset), 
-                    height: (int)(elementHeight * arr[i]));
+                rectangles[i] = new RectangleF(
+                    x: Width * .015f + i * elementWidth + 0 * widthOffset,
+                    y: Height * .9f - elementHeight * arr[i],
+                    width: elementWidth - 0 * widthOffset,
+                    height: elementHeight * arr[i]
+                    );
+
+                //g.FillRectangle(
+                //    brush,
+                //    x: Width * .015f + i * elementWidth + 0 * widthOffset,
+                //    y: Height * .9f - elementHeight * arr[i],
+                //    width: elementWidth - 0 * widthOffset,
+                //    height: elementHeight * arr[i]);
             }
+
+            var brush = done ? Brushes.LightGreen : Brushes.White;
+
+            g.FillRectangles(brush, rectangles);
+
+            if(!done && coloredIndexes[0] >= 0)
+                g.FillRectangle(Brushes.Red, 
+                    new RectangleF(
+                        x: Width * .015f + coloredIndexes[0] * elementWidth + 0 * widthOffset,
+                        y: Height * .9f - elementHeight * arr[coloredIndexes[0]],
+                        width: elementWidth - 0 * widthOffset,
+                        height: elementHeight * arr[coloredIndexes[0]]
+                    ));
 
             base.OnPaint(e);
         }
